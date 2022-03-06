@@ -1,8 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { Container, Row, Col, Button, Form, Modal} from "react-bootstrap";
-import CardSkill from "../Components/CardSkill";
+import CardSkill from "../components/CardSkill";
 
 function Home () {
+    const [usuario, setUsuario] = useState({
+        logged: true,
+        idUsuario:"1",
+        login:"YuriMCorrea"
+    })
 
     return(
         <>

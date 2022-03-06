@@ -6,7 +6,8 @@ function Header () {
     const [greet, setGreet] = useState("Desafio");
     const [usuario, setUsuario] = useState({
         logged: true,
-        login: "fulano",
+        idUsuario: "1",
+        login: "YuriMCorrea",
         senha: "teste",
     });
 
